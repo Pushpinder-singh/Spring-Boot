@@ -1,4 +1,4 @@
-# Spring-Boot + Eureka Server + Dicovery Client
+# Spring-Boot + Eureka Server + Discovery Client
 In this project Spring boot microservices register them with an Eureka server, and demonstrate service communication using Feign client.
 
 **Pre requisites:**
