@@ -22,6 +22,7 @@ In this project Spring boot microservices register them with an Eureka server, a
 **Use a browser or Postman to test the endpoints:**
 
 product-service: http://localhost:8081/products/1
-order-service: http://localhost:8082/orders/1
+order-service: http://localhost:8082/orders
+order-service: http://localhost:8082/order/1
 
 Validate the response from order-service, it should fetched the product details from product-service throgh feign client.
